@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ArrayToLinkedList {
 
@@ -26,5 +27,6 @@ public class ArrayToLinkedList {
 			System.out.println(x);
 		}
 	}
+		
 
 }

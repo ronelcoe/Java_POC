@@ -29,9 +29,13 @@ public class CyclicRotation3 {
 
 		int[] arrayNumbers = { 5, 3, 4, 6, 10 };
 
-		solution(arrayNumbers, 3);
-
-		System.out.println("\nElapse Time: " + (System.currentTimeMillis() - startTime));
+//		solution(arrayNumbers, 3);
+		
+		for(int x : solution(arrayNumbers, 3)) {
+			System.out.print(x + " ");
+		}
+		
+//		System.out.println("\nElapse Time: " + (System.currentTimeMillis() - startTime));
 	}
 
 }

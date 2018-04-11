@@ -3,6 +3,7 @@ package com.test.lamda;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Stream;
 
 public class Lambda_Expression {
 
@@ -11,7 +12,7 @@ public class Lambda_Expression {
 	}           
 
 	public static void main(String[] args) {
-		//		() -> System.out.println("Hello Lamda");
+//				() -> System.out.println("Hello Lamda");
 		//		x -> x + 10;
 //		boolean b = checkList(new ArrayList(), al -> al.isEmpty());
 //		boolean b = checkList(new ArrayList(), al -> return al.size() == 0);
@@ -38,6 +39,7 @@ public class Lambda_Expression {
 //		    System.out.println("Hello");
 //		    return i;
 //		}
+		
 	}
 
 	private static void checkList(ArrayList list, Object p) {
