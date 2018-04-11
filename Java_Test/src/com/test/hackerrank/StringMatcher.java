@@ -1,4 +1,4 @@
-package com.java.test;
+package com.test.hackerrank;
 
 import java.util.regex.Pattern;
 
